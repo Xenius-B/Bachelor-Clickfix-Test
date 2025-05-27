@@ -1,1 +1,1 @@
-mshta "javascript:alert('Verification complete');close()"
+cmd /c 'mshta "javascript:alert(''Verification complete'');close()"'
