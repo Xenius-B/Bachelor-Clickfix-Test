@@ -14,7 +14,6 @@ try {
 # Send data to the TCP listener on port 9999
 try {
     $client = New-Object System.Net.Sockets.TcpClient("127.0.0.1", 9999)
-    # $client = New-Object System.Net.Sockets.TcpClient("192.168.126.1", 9999)
     $stream = $client.GetStream()
     $writer = New-Object System.IO.StreamWriter($stream)
     
